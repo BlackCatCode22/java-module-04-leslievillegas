@@ -1,0 +1,9 @@
+Design Report:
+
+I wasn't able to get my finishing code to work but I mostly got down the basics. The Animal class is the base with common attributes. I included the hyena, lion, tiger, and bear species.
+The ArrayLists store the animal instances and the HashMap counts the species occurrences.
+The File I/O is supposed to read species and ages from  arrivingAnimals.txt and read names from AnimalNames.txt
+The create animal name lists calls Utilities.createAnimalNameLists(filePath) to generate the list wrapper object that contains empty lists for the species.
+printAnimalNames calls for each species to print the list of animal names to the console.
+The program is supposed to read the file line by line, parse the species and age, and assigns a name to the animal based on the species using the lists from earlier but I wasnt able to make it work. Its alsp supposed to create the animal object for each arriving animal and add it to the animals list as well as count each species.
+It then writes a report to newAnimals.txt however I wasnt able to see if this fully worked as my errors from before stop it from executing. 
